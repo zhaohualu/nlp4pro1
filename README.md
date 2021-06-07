@@ -36,7 +36,7 @@ Please run run_model.py and set the pre-trained model below before running the c
 
 ## BERT
 
-'''python
+```python
 NEpochs = 10
 ModelType = 'bert'
 ModelName = 'bert-base-uncased'
@@ -46,7 +46,7 @@ configvar=ModelName
 tokenvar=ModelName
 modelvar=ModelName
 from_tf_flag=False
-'''
+```
 
 
 #======================================================================
