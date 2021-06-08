@@ -5,8 +5,6 @@ Code for the BERT classification in ''Natural Language Processing and Machine Le
 
 The code is derived from [this repo](https://github.com/ThilinaRajapakse/pytorch-transformers-classification).
 
-Please refer to this [Medium article](https://medium.com/p/https-medium-com-chaturangarajapakshe-text-classification-with-transformer-models-d370944b50ca?source=email-6b1e2355088e--writer.postDistributed&sk=f21ffeb66c03a9804572d7063f57c04e) for further information on how this project works.
-
 This repository is based on the [Pytorch-Transformers](https://github.com/huggingface/pytorch-transformers) library by HuggingFace. 
 
 The code was run in an anaconda environment, the details of which is shown in the environment.yml.
