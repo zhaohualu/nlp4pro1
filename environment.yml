@@ -99,5 +99,5 @@ dependencies:
   - pytorch=1.7.1=py3.8_cuda10.1.243_cudnn7.6.3_0
   - torchaudio=0.7.2=py38
   - torchvision=0.8.2=py38_cu101
-prefix: /home/jlu3/.conda/envs/ptt
+prefix: /home/abcd/.conda/envs/ptt
 
