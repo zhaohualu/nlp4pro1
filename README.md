@@ -23,10 +23,10 @@ This is the required structure.
 - `alpha`: A column of the same letter for all rows. Not used in classification but still expected by the `DataProcessor`.
 - `text`: The sentence or sequence of text.
 
-An example of creating data files for cross-validated samples is data_prep.py. Two variables to set, the file name of the complete data file "DataFilename" and the index of the CV batch used to generate file names.
+An example of creating data files for cross-validated samples is data_prep.py. Two variables to set, the file name of the complete data file "DataFilename" and the index of the CV batch used to generate file names. For example,
 ```python
-DataFilename = sys.argv[1]
-CVBatch = int(sys.argv[2])
+DataFilename = "Filename.txt"
+CVBatch = 1
 ```
 
 # Run model
@@ -59,7 +59,7 @@ from_tf_flag=False
 
 ### BioBERT
 
-please download the pretrained model BioBERT-Base v1.1 (+ PubMed 1M) from https://github.com/dmis-lab/biobert
+Please download the pretrained model BioBERT-Base v1.1 (+ PubMed 1M) from https://github.com/dmis-lab/biobert
 and change the path below to the folder storing the model
 
 ```python
@@ -95,7 +95,7 @@ from_tf_flag=False
 
 ### Clinical BERT
 
-please download the pretrained model BlueBERT-Base, Uncased, PubMed from https://github.com/ncbi-nlp/bluebert and change the path below to the folder storing the model
+Please download the pretrained model BlueBERT-Base, Uncased, PubMed from https://github.com/ncbi-nlp/bluebert and change the path below to the folder storing the model
 
 ```python
 NEpochs = 10
@@ -109,3 +109,10 @@ tokenvar='path/'
 modelvar='path/'
 from_tf_flag=False
 ```
+
+
+
+
+
+
+
