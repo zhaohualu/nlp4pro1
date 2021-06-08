@@ -12,7 +12,7 @@ The code was run in an anaconda environment, the details of which is shown in th
 
 # Datasets format
 
-The data are stored in the data folder.
+The data are stored in the folder named `data` in the same folder with the `.py` files.
 
 The data needs to be in `tsv` format, with four columns, and no header.
 
