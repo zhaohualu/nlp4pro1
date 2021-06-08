@@ -11,8 +11,6 @@ This repository is based on the [Pytorch-Transformers](https://github.com/huggin
 
 The code was run in an anaconda environment, the details of which is shown in the environment.yml.
 
-# Current Pretrained Models
-
 
 # Datasets format
 
